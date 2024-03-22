@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+
+eval $("ssh-agent")
+
+ssh-add ~/.ssh/school
+
+ssh ubuntu@52.91.183.187
+
+#!/usr/bin/env bash
+
+eval $("ssh-agent")
+
+ssh-add ~/.ssh/school
+
+ssh ubuntu@18.206.192.46
+
+#!/usr/bin/env bash
+
+eval $("ssh-agent")
+
+ssh-add ~/.ssh/school
+
+ssh ubuntu@3.83.227.88
